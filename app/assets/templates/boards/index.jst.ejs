@@ -1,0 +1,8 @@
+<h1>You found the Boards index!</h1>
+
+<ul class="boards">
+
+	<% boards.each(function(board){ %>
+		<li><h3>Title: <%=board.get("title")%></h3></li>
+	<% }) %>
+</ul>
